@@ -43,3 +43,4 @@ dir.create("data/prepped", showWarnings = FALSE)
 
 # Write data
 write.csv(prepped, "./data/prepped/all_data.csv", row.names = FALSE)
+
